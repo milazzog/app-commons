@@ -2,7 +2,7 @@ package it.mgdev.app.commons.persistence.model;
 
 import java.util.Date;
 
-public interface Addable {
+public interface Addable extends Identifiable {
 
     String added_at = "added_at";
     String adder = "adder";
