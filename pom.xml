@@ -6,14 +6,14 @@
 
     <groupId>it.mgdev</groupId>
     <artifactId>app-commons</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <properties>
         <github.global.server>github</github.global.server>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <repository.name>user-commons</repository.name>
+        <repository.name>app-commons</repository.name>
         <repository.owner>milazzog</repository.owner>
         <dep.spring.boot>2.2.5.RELEASE</dep.spring.boot>
     </properties>
@@ -37,7 +37,7 @@
     </distributionManagement>
 
     <build>
-        <finalName>user-commons</finalName>
+        <finalName>app-commons</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
